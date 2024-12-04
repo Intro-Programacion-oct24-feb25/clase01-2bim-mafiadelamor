@@ -9,7 +9,7 @@ import paquete01.*;
 
 /**
  *
- * @author reroes
+ * @author reroes   
  */
 public class Ejemplo0111 {
 
