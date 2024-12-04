@@ -17,7 +17,7 @@ public class Ejemplo011 {
     public static void main(String[] args) {
         
         for (int i = 10; i >= 0; i--) {
-            System.out.printf("%d\n", i);
+            System.out.printf("Numeros del 1 al 10 al reves:\n %d\n", i);
         }
         
         

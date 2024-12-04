@@ -4,10 +4,20 @@
  */
 package paquete05;
 
-/**
- *
- * @author utpl
- */
+import java.util.Locale;
+import java.util.Scanner;
 public class ejemplo022 {
-    
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        System.out.println("Carlos gey");
+        
+       
+        
+
+    }
+
 }
+
+
