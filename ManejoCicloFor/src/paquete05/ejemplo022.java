@@ -12,29 +12,31 @@ public class ejemplo022 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int valorfijo = 0;
-        int contador = 0;
+        int valorfijo = 1;
+        int contador = 1;
         int limite;
         int limite1;
         int resultado;
+        String cadenaFinal = "";
 
-        System.out.println("Ingrese cuantas tablas desea");
+        System.out.println("Ingrese las tablas que desea");
         limite = entrada.nextInt();
-
+        System.out.println("Ingrese el limite de cada tabla");
+        limite1 = entrada.nextInt();
+        
         while (valorfijo <= limite) {
-            System.out.println("Ingrese el numero del que quiera la tabla");
-            valorfijo = entrada.nextInt();
-            System.out.println("Ingrese el limite de la tabla");
-            limite1 = entrada.nextInt();
             while (contador <= limite1) {
                 resultado = valorfijo * contador;
-                System.out.printf("%d * %d = %d\n", valorfijo, contador, resultado);
+                cadenaFinal = String.format("%s%d * %d = %d\n", cadenaFinal,
+                        valorfijo, contador, resultado);
                 contador = contador + 1;
             }
+            System.out.printf("%s-----------\n", cadenaFinal);
+            cadenaFinal = "";
             contador = 1;
-
+            valorfijo = valorfijo + 1;
         }
-
+        
     }
 
 }
