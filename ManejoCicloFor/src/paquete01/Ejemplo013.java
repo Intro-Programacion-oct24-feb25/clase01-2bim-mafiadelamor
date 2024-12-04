@@ -24,7 +24,11 @@ public class Ejemplo013 {
         System.out.println("Ingrese el límite para ciclo");
         limite = entrada.nextInt();
         
+<<<<<<< HEAD
         for (int i = 0; i < 10; i++) {
+=======
+        for (int i = 0; i < 17; i++) {
+>>>>>>> 09d5e9faa171ead6a82d13aee29042be822a1be6
             System.out.printf("%d\n", i);
         }
 
