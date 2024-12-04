@@ -25,10 +25,14 @@ public class Ejemplo013 {
         limite = entrada.nextInt();
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (int i = 0; i < 10; i++) {
 =======
         for (int i = 0; i < 17; i++) {
 >>>>>>> 09d5e9faa171ead6a82d13aee29042be822a1be6
+=======
+        for (int i = 0; i < limite; i++) {
+>>>>>>> 1c02452b4cf1284a4f0469dfea13e4b30734d8f3
             System.out.printf("%d\n", i);
         }
 
